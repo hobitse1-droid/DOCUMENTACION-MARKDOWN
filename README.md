@@ -6,15 +6,6 @@
 ---
 ### Multiplicacion de matrices
 
-Resuelve la siguientes matrices 
-
-$$ A =
-\begin{pmatrix}
-1 & 0 \\
-0 & 1 \\
-\end{pmatrix}
-$$
-
 MUESTRA
 
 Calcula multiplicacion de (AB)C 
@@ -54,9 +45,57 @@ $$ A * B =
 \end{pmatrix}
 $$
 
+$$ (AB)C
+
+$$ (AB) * C =
+\begin{pmatrix}
+4 * 1 + 6 * 0 & 4 * 1 + 6 * 2 \\
+10 * 1 + 12 * 0 & 10 * 1 + 12 * 2 \\
+\end{pmatrix}
+$$
+
+$$ (AB) * C =
+\begin{pmatrix}
+4 & 16 \\
+10 & 34 \\
+\end{pmatrix}
+$$
+
 ---
 # OTRO EJERCICIO
-...
+
+Ahora A(BC)
+
+$$ B * C =
+\begin{pmatrix}
+2 * 1 + 0 * 0 & 2 * 1 + 0 * 2 \\
+1 * 1 + 3 * 0 & 1 * 1 + 3 * 2 \\
+\end{pmatrix}
+$$
+
+$$ B * C =
+\begin{pmatrix}
+2 & 2 \\
+1 & 7 \\
+\end{pmatrix}
+$$
+
+$$ A(BC)
+
+$$ A * (BC) =
+\begin{pmatrix}
+1 * 2 + 2 * 1 & 1 * 2 + 2 * 7 \\
+3 * 2 + 4 * 1 & 3 * 2 + 4 * 7 \\
+\end{pmatrix}
+$$
+
+$$ (AB) * C =
+\begin{pmatrix}
+4 & 16 \\
+10 & 34 \\
+\end{pmatrix}
+$$
+
 
 
 
