@@ -47,10 +47,10 @@ $$ A * B =
 \end{pmatrix}
 $$
 
-$$ A + B =
+$$ A * B =
 \begin{pmatrix}
-10 & 12 & 14 \\
-16 & 18 & 20 \\
+4 & 6 \\
+10 & 12 \\
 \end{pmatrix}
 $$
 
