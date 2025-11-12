@@ -54,6 +54,8 @@ $$ (AB) * C =
 \end{pmatrix}
 $$
 
+RESULTADO
+
 $$ (AB) * C =
 \begin{pmatrix}
 4 & 16 \\
@@ -88,6 +90,8 @@ $$ A * (BC) =
 3 * 2 + 4 * 1 & 3 * 2 + 4 * 7 \\
 \end{pmatrix}
 $$
+
+RESULTADO
 
 $$ (AB) * C =
 \begin{pmatrix}
