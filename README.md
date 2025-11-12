@@ -4,9 +4,9 @@
 ## Actividad \#16 - Matrices doc
 
 ---
-### Identificación de matrices
+### Multiplicacion de matrices
 
-Matriz identidad, porque la diagonal está compuestos por solo unos y los elementos fuera de la diagonal son ceros.
+Resuelve la siguientes matrices 
 
 $$ A =
 \begin{pmatrix}
@@ -17,26 +17,33 @@ $$
 
 MUESTRA
 
-Calcula la suma de A y B
+Calcula multiplicacion de (AB)C 
 
 $$ A =
 \begin{pmatrix}
-1 & 2 & 3 \\
-4 & 5 & 6 \\
+1 & 2 & \\
+3 & 4 & \\
 \end{pmatrix}
 $$
 
 $$ B =
 \begin{pmatrix}
-9 & 10 & 11 \\
-12 & 13 & 14 \\
+2 & 0 & \\
+1 & 3 & \\
 \end{pmatrix}
 $$
 
-$$ A + B =
+$$ C =
 \begin{pmatrix}
-1 + 9 & 2 + 10 & 3 + 11 \\
-4 + 12 & 5 + 13 & 6 + 14 \\
+1 & 1 & \\
+0 & 2 & \\
+\end{pmatrix}
+$$
+
+$$ A * B =
+\begin{pmatrix}
+(1*2 + 2*1) & (1*0 + 2*3) \\
+(3*2 + 4*1) & (3*0 + 4*3) \\
 \end{pmatrix}
 $$
 
