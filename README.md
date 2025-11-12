@@ -1,12 +1,12 @@
 # Tecnológico de Software
 ## Materia: Fundamentos de álgebra
 ## Alumno: Leonardo Torres Tellez
-## Actividad \#16 - Matrices doc
+## Actividad \#16 - Matrices doc  11/11/2025
 
 ---
 ### Multiplicacion de matrices
 
-MUESTRA
+Resuelve las dos siguientes matrices paso a paso y revisa si son identicas o no paso a paso
 
 Calcula multiplicacion de (AB)C 
 
@@ -96,6 +96,7 @@ $$ (AB) * C =
 \end{pmatrix}
 $$
 
+Al final, las dos matrices si son iguales 
 
 
 
