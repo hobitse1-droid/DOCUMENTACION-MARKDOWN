@@ -1,35 +1,48 @@
 # Tecnológico de Software
 ## Materia: Fundamentos de álgebra
 ## Alumno: Leonardo Torres Tellez
-## Actividad \#16 - Matrices doc  11/11/2025
+## Actividad \#18 - Matrices doc  18/11/2025
 
 ---
-### Multiplicacion de matrices
+### Determinantes 2x2
 
-Resuelve las dos siguientes matrices paso a paso y revisa si son identicas o no paso a paso
-
-Calcula multiplicacion de (AB)C 
+Calcula los determinantes
 
 $$ A =
 \begin{pmatrix}
-1 & 2 & \\
-3 & 4 & \\
+5 & 2 & \\
+3 & 1 & \\
 \end{pmatrix}
 $$
+
+Det(A)= 5 - 6 = -1
 
 $$ B =
 \begin{pmatrix}
-2 & 0 & \\
-1 & 3 & \\
+-1 & 4 & \\
+2 & 8 & \\
 \end{pmatrix}
 $$
 
+Det(B)= 8 - 8 = 0
+
 $$ C =
 \begin{pmatrix}
-1 & 1 & \\
-0 & 2 & \\
+6 & 9 & \\
+2 & 3 & \\
 \end{pmatrix}
 $$
+
+Det(C)= 18 - 18 = 0
+
+$$ D =
+\begin{pmatrix}
+0 & 5 & \\
+5 & 0 & \\
+\end{pmatrix}
+$$
+
+Det(D)= 0 + 25 = 25
 
 $$ A * B =
 \begin{pmatrix}
