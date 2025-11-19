@@ -1,130 +1,108 @@
-# Tecnológico de Software  
-## Materia: Fundamentos de Álgebra  
-## Alumno: Leonardo Torres Téllez  
-## Actividad #16 - Determinantes y Multiplicación de Matrices  
-**Fecha:** 11/11/2025  
+# Tecnológico de Software
+## Materia: Fundamentos de álgebra
+## Alumno: Leonardo Torres Tellez
+## Actividad \#16 - Matrices doc  11/11/2025
 
 ---
+### Multiplicacion de matrices
 
-## Ejercicio 1️ - Determinantes de matrices 2x2
+Resuelve las dos siguientes matrices paso a paso y revisa si son identicas o no paso a paso
 
-### Matriz A:
-| 5 | 2 |
-|---|---|
-| 3 | 1 |
+Calcula multiplicacion de (AB)C 
 
-**Det(A)** = 5 × 1 − 2 × 3 = **−1**
+$$ A =
+\begin{pmatrix}
+1 & 2 & \\
+3 & 4 & \\
+\end{pmatrix}
+$$
 
-### Matriz B:
-| -1 | 4 |
-|----|---|
-| 2  | -8 |
+$$ B =
+\begin{pmatrix}
+2 & 0 & \\
+1 & 3 & \\
+\end{pmatrix}
+$$
 
-**Det(B)** = (−1 × −8) − (4 × 2) = 8 − 8 = **0**
+$$ C =
+\begin{pmatrix}
+1 & 1 & \\
+0 & 2 & \\
+\end{pmatrix}
+$$
 
-### Matriz C:
-| 6 | 9 |
-|---|---|
-| 2 | 3 |
+$$ A * B =
+\begin{pmatrix}
+1 * 2 + 2 * 1 & 1 * 0 + 2 * 3 \\
+3 * 2 + 4 * 1 & 3 * 0 + 4 * 3 \\
+\end{pmatrix}
+$$
 
-**Det(C)** = 6 × 3 − 9 × 2 = 18 − 18 = **0**
+$$ A * B =
+\begin{pmatrix}
+4 & 6 \\
+10 & 12 \\
+\end{pmatrix}
+$$
 
-### Matriz D:
-| 0  | 5  |
-|----|----|
-| -5 | 0  |
+$$ (AB)C
 
-**Det(D)** = 0 × 0 − 5 × (−5) = 0 + 25 = **25**
+$$ (AB) * C =
+\begin{pmatrix}
+4 * 1 + 6 * 0 & 4 * 1 + 6 * 2 \\
+10 * 1 + 12 * 0 & 10 * 1 + 12 * 2 \\
+\end{pmatrix}
+$$
 
----
-
-## Ejercicio 2️ - Determinantes de matrices 3x3
-
-### Matriz E:
-| 1 | 2 | 3 |
-|---|---|---|
-| 0 | 1 | 4 |
-| 5 | 6 | 0 |
-
-**Det(E)** = *(según cálculo manual)* = **24**
-
-### Matriz F:
-| 2 | -1 | 3 |
-|---|----|---|
-| 1 |  4 | 0 |
-| 3 |  2 | 2 |
-
-**Det(F)** = **−48**
-
----
-
-## Ejercicio 3️ - Determinante de matriz 3x3
-
-### Matriz G:
-| 1  | 0 | 2 |
-|----|---|---|
-| -1 | 3 | 1 |
-| 2  | 0 | 1 |
-
-**Det(G)** = 1 × (3 × 1) − 0 × (...) + 2 × (−6) = 3 − 12 = **−9**
+$$ (AB) * C =
+\begin{pmatrix}
+4 & 16 \\
+10 & 34 \\
+\end{pmatrix}
+$$
 
 ---
+# OTRO EJERCICIO
 
-## Ejercicio 4️ - Propiedades del determinante y multiplicación
+Ahora A(BC)
 
-### Matriz A:
-| 2 | 1 |
-|---|---|
-| 1 | 3 |
+$$ B * C =
+\begin{pmatrix}
+2 * 1 + 0 * 0 & 2 * 1 + 0 * 2 \\
+1 * 1 + 3 * 0 & 1 * 1 + 3 * 2 \\
+\end{pmatrix}
+$$
 
-**Det(A)** = 2 × 3 − 1 × 1 = **5**
+$$ B * C =
+\begin{pmatrix}
+2 & 2 \\
+1 & 7 \\
+\end{pmatrix}
+$$
 
-### Matriz B:
-| 1 | 2 |
-|---|---|
-| 3 | 1 |
+$$ A(BC)
 
-**Det(B)** = 1 × 1 − 2 × 3 = **−5**
+$$ A * (BC) =
+\begin{pmatrix}
+1 * 2 + 2 * 1 & 1 * 2 + 2 * 7 \\
+3 * 2 + 4 * 1 & 3 * 2 + 4 * 7 \\
+\end{pmatrix}
+$$
 
-### Producto AB:
-| 5  | 5  |
-|----|----|
-| 10 | 5  |
+$$ (AB) * C =
+\begin{pmatrix}
+4 & 16 \\
+10 & 34 \\
+\end{pmatrix}
+$$
 
-**Det(AB)** = 5 × 5 − 5 × 10 = 25 − 50 = **−25**  
-**Verificación:** Det(A) × Det(B) = 5 × (−5) = **−25**
+Al final, las dos matrices si son iguales 
 
-### Transpuesta de A:
-| 2 | 1 |
-|---|---|
-| 1 | 3 |
 
-**Det(Aᵀ)** = 2 × 3 − 1 × 1 = **5**
+
+
+
+
+
 
 ---
-
-## Ejercicio 5️ - Determinante como área geométrica
-
-### Vectores:
-- **u** = (3, 2)  
-- **v** = (1, 4)
-
-### Matriz formada:
-| 3 | 2 |
-|---|---|
-| 1 | 4 |
-
-**Det(A)** = 3 × 4 − 2 × 1 = 12 − 2 = **10**
-
-### Interpretación geométrica:
-- A) Área del paralelogramo: **10 unidades²**
-- B) El área **no cambia** si se rota o refleja
-- C) El **signo** del determinante indica la **orientación** (positiva: sentido antihorario)
-
----
-
----
-
-
-
-
