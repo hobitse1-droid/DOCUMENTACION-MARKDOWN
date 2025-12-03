@@ -1,108 +1,200 @@
-# Tecnológico de Software
-## Materia: Fundamentos de álgebra
-## Alumno: Leonardo Torres Tellez
-## Actividad \#16 - Matrices doc  11/11/2025
+# Tecnológico de Software  
+## Materia: Fundamentos de Álgebra  
+## Alumno: Leonardo Torres Téllez  
+## Actividad #20 - Matrices doc  
+**Fecha:** 25/11/2025  
 
 ---
-### Multiplicacion de matrices
 
-Resuelve las dos siguientes matrices paso a paso y revisa si son identicas o no paso a paso
+### Imágenes utilizadas en la actividad:
+- **Flareon**
+- 																												
+																												
+																												
+																												
+																												
+			2	2	2	2																2	2	2	2			
+			2	0	0	0	2	2					2		2	2				2	2	0	0	0	2			
+			2	0	2	2	0	0	2			2	1	2	1	2			2	0	0	2	2	0	2			
+			2	0	3	2	2	0	0	2		2	1	1	2			2	0	0	2	2	3	0	2			
+				2	0	3	2	2	0	0	2	1	1	1	1	2	2	0	0	2	2	3	0	2				
+				2	0	0	3	2	2	0	0	1	1	1	1	1	0	0	2	2	3	0	0	2				
+					2	0	0	3	0	0	0	1	1	1	1	1	0	0	0	3	0	0	2					
+						2	0	0	0	0	0	0	1	1	1	0	0	0	0	0	0	2						
+							2	0	0	0	0	0	0	0	0	0	0	0	0	0	2							
+							2	0	0	0	0	0	0	0	0	0	0	0	0	0	2							
+							2	0	0		2	0	0	0	0	0		2	0	0	2				2			
+							2	0	0	2	0	0	0	0	0	0	2	0	0	0	2			2	4	2		
+							2	0	0	0	0	0	0	0	0	0	0	0	0	0	2	2	2	4	4	2		
+							2	0	0	0	0	0	0	0	0	0	0	0	0	0	2	4	4	4	4	4	2	
+								2	1	1	0	0	0	0	0	0	0	1	1	2	4	4	4	4	4	4	4	2
+							2	1	1	1	1	1	1	1	1	1	1	1	1	1	2	4	4	4	4	4	4	2
+								2	1	1	1	1	1	1	1	1	1	1	1	4	4	4	4	4	4	4	2	
+							2	1	1	1	1	1	1	1	1	1	1	1	1	1	4	4	4	4	4	4	2	
+						2	0	0	1	1	1	1	1	1	1	1	1	1	1	0	0	4	4	4	4	2		
+					2	0	3	3	0	1	1	0	1	1	1	0	1	1	0	3	3	0	4	2	2			
+					2	0	3	3	3	0	1	0	0	1	0	0	1	0	3	3	3	0	2					
+						2	0	3	3	0	0	0	0	2	0	0	0	0	3	3	0	2						
+							2	0	0	2	0	0	0	2	0	0	0	2	0	0	2							
+								2	2		2	2	2	2	2	2	2		2	2								
+<img width="2371" height="2432" alt="image" src="https://github.com/user-attachments/assets/963ba1a0-29d2-45df-a453-4adccca10a0d" />
 
-Calcula multiplicacion de (AB)C 
+- **Eevee**
+- 																								
+																								
+																								
+																								
+																								
+		0	0	0	0																0	0	0	0
+		0	2	2	1	0	0												0	0	1	2	2	0
+		0	2	5	5	1	1	0										0	1	1	5	5	2	0
+		0	1	5	5	5	1	1	0		0	0	0	0	0		0	1	1	5	5	5	1	0
+			0	1	5	5	0	1	1	0	1	1	1	1	1	0	1	1	0	5	5	1	0	
+			0	1	1	0	0	0	1	1	1	1	1	1	1	1	1	0	0	0	1	1	0	
+				0	1	1	0	1	1	1	1	1	1	1	1	1	1	1	0	1	1	0		
+					0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0			
+						0	1	1	1	1	1	1	1	1	1	1	1	1	1	0				
+						0	1	1	1	1	1	1	1	1	1	1	1	1	1	0				
+	0					0	1	1	1	1	1	1	1	1	1	1	1	1	1	0				
+0	2	0	0			0	1	1		0	1	1	1	1	1		0	1	1	0				
+0	2	2	2	0		0	1	1	0		1	1	1	1	1	0		1	1	0				
+0	2	2	2	2	0	0	1	1	1	1	1	1	1	1	1	1	1	1	1	2				
+	0	2	2	2	2	0	0	1	1	1	1	1	1	1	1	1	1	1	0					
+	0	2	2	2	2	1	2	2	2	1	1	1	1	1	1	1	2	2	2	0				
+	0	2	2	2	1	4	2	2	2	2	2	2	2	2	2	2	2	2	2	0				
+		0	2	3	4	4	4	2	2	2	2	2	2	2	2	2	2	2	0					
+		0	3	3	4	4	4	1	2	2	2	2	2	2	2	2	2	1	0	0				
+			0	4	4	1	1	1	1	1	2	2	2	2	2	1	1	1	1	1	0			
+				0	1	5	5	1	1	1	1	1	3	1	1	1	1	1	5	5	1	0		
+				0	1	5	5	5	1	1	1	1	3	1	1	1	1	5	5	5	1	0		
+					0	1	5	5	1	1	1	1	3	1	1	1	1	5	5	1	0			
+						0	1	1	0	1	1	1	0	1	1	1	0	1	1	0				
+							0	0		0	0	0	0	0	0	0		0	0					
+<img width="2371" height="2491" alt="image" src="https://github.com/user-attachments/assets/4e2f514b-fe5c-4d3e-80e6-7dc048d773f6" />
 
-$$ A =
-\begin{pmatrix}
-1 & 2 & \\
-3 & 4 & \\
-\end{pmatrix}
-$$
+- **Jolteon**
+- 																									
+																									
+																									
+																									
+																									
+			0	0	0	0																0	0	0	0
+			0	1	1	1	0	0												0	0	1	1	1	0
+			0	1	2	0	1	1	0					0					0	1	1	0	2	1	0
+			0	1	2	2	0	1	1	0		0	0	1	0	0		0	1	1	0	2	2	1	0
+				0	1	2	2	0	1	1	0	1	1	1	1	1	0	1	1	0	2	2	1	0	
+				0	1	1	2	22	0	1	1	1	1	1	1	1	1	1	0	2	2	1	1	0	
+					0	1	1	2	1	1	1	1	1	1	1	1	1	1	1	2	1	1	0		
+						0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0			
+							0	1	1	1	1	1	1	1	1	1	1	1	1	1	0				
+							0	1	1	1	1	1	1	1	1	1	1	1	1	1	0				
+							0	1	1	1	1	1	1	1	1	1	1	1	1	1	0				
+						0	1	1	1	1		0	1	1	1	1		0	1	1	1	0			
+							0	1	1	1	0	2	1	1	1	1	0	2	1	1	0				
+							0	1	1	1	1	1	1	1	1	1	1	1	1	1	0				
+							0	0	1	1	1	1	1	1	1	1	1	1	1	0	0				
+						0					1	1	1	1	1	1	1					0			
+					0									1									0		
+						0																0			
+							0	0	1	1		1				1		1	1	0	0				
+						0	1	1	1	1	1	1	1		1	1	1	1	1	1	1	0			
+					0	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	0		
+					0	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	0		
+						0	1	1	1	1	1	1	1	0	1	1	1	1	1	1	1	0			
+							0	1	1	0	1	1	1	0	1	1	1	0	1	1	0				
+								0	0		0	0	0		0	0	0		0	0					
+<img width="2371" height="2491" alt="image" src="https://github.com/user-attachments/assets/fb4001dd-6b4e-4a2c-8fce-1753dcdd9d05" />
 
-$$ B =
-\begin{pmatrix}
-2 & 0 & \\
-1 & 3 & \\
-\end{pmatrix}
-$$
+- **Freddy**
+- 																							
+																							
+																							
+																							
+																							
+											0	0	0	0	0								
+											0	0	0	0	0								
+											0	0	0	0	0								
+					0	0	0				0	0	0	0	0				0	0	0		
+				0	2	2	2	0		0	0	0	0	0	0	0		0	2	2	2	0	
+			0	2	1	1	1	2	0	0	0	0	0	0	0	0	0	2	1	1	1	2	0
+			0	2	1	1	1	2	0	2	2	2	2	2	2	2	0	2	1	1	1	2	0
+			0	2	1	1	1	0	2	2	2	2	2	2	2	2	2	0	1	1	1	2	0
+				0	2	2	0	2	0	0	0	0	2	0	0	0	0	2	0	2	2	0	
+					0	0	0	2	2	2	2	2	2	2	2	2	2	2	0	0	0		
+							0	2	2	0	0	2	2	2	0	0	2	2	0				
+						0	2	2	0			0	2	0			0	2	2	0			
+					0	2	2	2	0		3	0	2	0	3		0	2	2	2	0		
+					0	2	2	2	0	0	0	0	0	0	0	0	0	2	2	2	0		
+					0	2	2	0	2	2	2	0	0	0	2	2	2	0	2	2	0		
+						0	2	0	2	2	2	2	0	2	2	2	2	0	2	0			
+							0	0	2	2	2	2	0	2	2	2	2	0	0				
+								0	0	0	0	0	0	0	0	0	0	0					
+								0	2	0	0	0	0	0	0	0	2	0					
+								0	2	2	2	0	2	0	2	2	2	0					
+									0	2	2	2	2	2	2	2	0						
+										0	0	0	0	0	0	0							
+																							
+																							
+																							
+<img width="3121" height="2491" alt="image" src="https://github.com/user-attachments/assets/7dbb8e93-f1ad-4871-bf5e-32e785af9570" />
 
-$$ C =
-\begin{pmatrix}
-1 & 1 & \\
-0 & 2 & \\
-\end{pmatrix}
-$$
+- **BMO**
+- 																				
+																				
+																				
+																				
+						0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+					0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0
+					0	1	1	0	0	0	0	0	0	0	0	0	0	1	1	0
+					0	1	0	2	2	2	2	2	2	2	2	2	2	0	1	0
+					0	1	0	2	2	0	2	2	2	2	0	2	2	0	1	0
+					0	1	0	2	2	2	2	2	2	2	2	2	2	0	1	0
+					0	1	0	2	2	2	0	2	2	0	2	2	2	0	1	0
+					0	1	0	2	2	2	2	0	0	2	2	2	2	0	1	0
+					0	1	0	2	2	2	2	2	2	2	2	2	2	0	1	0
+					0	1	1	0	0	0	0	0	0	0	0	0	0	1	1	0
+					0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0
+					0	1	1	3	3	3	3	3	3	1	1	1	4	1	1	0
+					0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0
+					0	1	1	1	6	1	1	1	1	1	5	1	1	1	1	0
+					0	1	1	6	6	6	1	1	1	5	5	1	1	1	1	0
+					0	1	1	1	6	1	1	1	1	1	1	1	1	1	1	0
+					0	1	1	1	1	1	1	1	1	1	7	7	1	1	1	0
+					0	1	1	1	1	1	1	1	1	1	7	7	1	1	1	0
+					0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0
+					0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0
+						0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+																				
+																				
+																				
+																				
+																				
+<img width="3121" height="2491" alt="image" src="https://github.com/user-attachments/assets/b0c3e64d-66b6-46a3-a2d5-fbf4f6ef6c9c" />
 
-$$ A * B =
-\begin{pmatrix}
-1 * 2 + 2 * 1 & 1 * 0 + 2 * 3 \\
-3 * 2 + 4 * 1 & 3 * 0 + 4 * 3 \\
-\end{pmatrix}
-$$
+### Operaciones utilizadas en la actividad:
+## Ejercicios Realizados
 
-$$ A * B =
-\begin{pmatrix}
-4 & 6 \\
-10 & 12 \\
-\end{pmatrix}
-$$
+### Flareon
+- Matriz original 30×30.
+- Transposición con `=TRANSPOSE(Flareon!A1:AD30)`.
+- Multiplicación escalar con `k=2`.
 
-$$ (AB)C
+### Eevee
+- Matriz original 30×30.
+- Transposición con `=TRANSPOSE(Eevee!A1:AD30)`.
+- Suma de matrices: `Eevee + Jolteon`.
 
-$$ (AB) * C =
-\begin{pmatrix}
-4 * 1 + 6 * 0 & 4 * 1 + 6 * 2 \\
-10 * 1 + 12 * 0 & 10 * 1 + 12 * 2 \\
-\end{pmatrix}
-$$
+### Jolteon
+- Matriz original 30×30.
+- Transposición con `=TRANSPOSE(Jolteon!A1:AD30)`.
+- Resta de matrices: `Jolteon – Flareon`.
 
-$$ (AB) * C =
-\begin{pmatrix}
-4 & 16 \\
-10 & 34 \\
-\end{pmatrix}
-$$
+### Freddy
+- Matriz original 30×30.
+- Transposición con `=TRANSPOSE(Freddy!A1:AD30)`.
+- Composición lineal: `2*Freddy + 3*BMO`.
 
----
-# OTRO EJERCICIO
-
-Ahora A(BC)
-
-$$ B * C =
-\begin{pmatrix}
-2 * 1 + 0 * 0 & 2 * 1 + 0 * 2 \\
-1 * 1 + 3 * 0 & 1 * 1 + 3 * 2 \\
-\end{pmatrix}
-$$
-
-$$ B * C =
-\begin{pmatrix}
-2 & 2 \\
-1 & 7 \\
-\end{pmatrix}
-$$
-
-$$ A(BC)
-
-$$ A * (BC) =
-\begin{pmatrix}
-1 * 2 + 2 * 1 & 1 * 2 + 2 * 7 \\
-3 * 2 + 4 * 1 & 3 * 2 + 4 * 7 \\
-\end{pmatrix}
-$$
-
-$$ (AB) * C =
-\begin{pmatrix}
-4 & 16 \\
-10 & 34 \\
-\end{pmatrix}
-$$
-
-Al final, las dos matrices si son iguales 
-
-
-
-
-
-
-
-
----
+### BMO
+- Matriz original 30×30.
+- Transposición con `=TRANSPOSE(BMO!A1:AD30)`.
+- Usada en la composición con Freddy.
