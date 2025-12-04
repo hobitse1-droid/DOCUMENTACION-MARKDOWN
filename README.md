@@ -1,7 +1,7 @@
 # Tecnológico de Software  
 ## Materia: Fundamentos de Álgebra  
 ## Alumno: Leonardo Torres Téllez  
-## Actividad #16 - Determinantes y Multiplicación de Matrices  
+## Actividad #18 - Determinantes y Multiplicación de Matrices  
 **Fecha:** 11/11/2025  
 
 ---
