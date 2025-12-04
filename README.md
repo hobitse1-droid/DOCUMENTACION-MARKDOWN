@@ -1,7 +1,7 @@
 # Tecnológico de Software  
 ## Materia: Fundamentos de Álgebra  
 ## Alumno: Leonardo Torres Téllez  
-## Actividad #20 - Matrices doc  
+## Actividad #23 - Matrices doc  
 **Fecha:** 03/12/2025  
 
 # Resolución de sistemas de ecuaciones lineales
